@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <Spinner
+        android:id="@+id/spinnerClasses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/textColorPrimary"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Name"
+        app:backgroundTint="@color/textColorSecondary"
+        android:textColorHint="@color/hint_color"
+        android:textColor="@color/textColorPrimary"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextRollNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Roll Number"
+        app:backgroundTint="@color/textColorSecondary"
+        android:textColorHint="@color/hint_color"
+        android:textColor="@color/textColorPrimary"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/buttonAddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="Add Student"/>
+
+</LinearLayout>

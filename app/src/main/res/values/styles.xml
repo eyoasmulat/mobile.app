@@ -1,0 +1,26 @@
+<resources>
+    <!-- Base App Theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorHint">@color/hint_color</item> <!-- Fix hint color -->
+        <item name="colorControlActivated">@color/colorPrimary</item> <!-- Cursor color -->
+    </style>
+
+    <!-- Rounded Corners for Input Fields -->
+    <style name="RoundedCorners" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">12dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+    </style>
+</resources>

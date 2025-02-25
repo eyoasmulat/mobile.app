@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="background">#FFFFFF</color> <!-- White -->
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#212121</color> <!-- Dark Gray -->
+    <color name="textColorSecondary">#757575</color> <!-- Gray -->
+
+    <!-- Hint Text Color -->
+    <color name="hint_color">#757575</color> <!-- Gray -->
+
+    <!-- Primary Colors (Buttons, Cursor, etc.) -->
+    <color name="colorPrimary">#2196F3</color> <!-- Blue -->
+    <color name="colorPrimaryDark">#1976D2</color> <!-- Dark Blue -->
+    <color name="colorAccent">#2196F3</color> <!-- Blue -->
+
+    <!-- Status Colors -->
+    <color name="present">#4CAF50</color> <!-- Green -->
+    <color name="absent">#F44336</color> <!-- Red -->
+</resources>
